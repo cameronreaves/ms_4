@@ -2,3 +2,14 @@
 title: "ms_4"
 output: html_document
 ---
+
+I plan on using the climate.Rda to geographically display the net migration by county for the coastal states of the United States. 
+This dataset was created by researchers, Caleb Robinson, Bistra Dilkina, and Juan Moreno-Cruz and publised in the journal Plos One on August 17, 2019 titled "Migration patterns under different scenarios of sea level rise". They coupled "a sea level rise model with a data-driven model of human migration and future population projections, creating a generalized joint model of climate driven migration" which can be used by other researchers model the effects of climate change. Data and other information can be found on their github repository linked here: https://github.com/calebrob6/migration-slr.
+
+I then use population and household income data by county from  the tidycensus package to do some regressions on their relationship with net migration.
+
+Why sea level rise matters?
+
+
+
+https://riskfinder.climatecentral.org
